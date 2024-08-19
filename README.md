@@ -12,6 +12,9 @@ to those just starting out with this stuff, as I have had to learn alot over the
 
 Ill start at the beginning:
 
-AMY DRONE SYNTH V1
+0.0  AMY DRONE SYNTH V1
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HmVCcdBEqVo?si=YTueI7KoU-uV5jks/0.jpg)](https://www.youtube.com/watch?v=HmVCcdBEqVo?si=YTueI7KoU-uV5jks)
 
+My first working project with AMY. A simple 4 pot drone synth with 2 oscillators, one with a resonant lowpass filter. Very straight forward. Find the code in 
+the folder marked with the title above. Made in Arduino IDE. You will have to install the AMY library to compile and run this. Wiring is in the sketch. 
