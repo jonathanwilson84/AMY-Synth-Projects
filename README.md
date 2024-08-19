@@ -18,3 +18,6 @@ Video link:  https://youtu.be/HmVCcdBEqVo?si=871RxQAUBjIRqKXD
 
 My first working project with AMY. A simple 4 pot drone synth with 2 oscillators, one with a resonant lowpass filter. Very straight forward. Find the code in 
 the folder marked with the title above. Made in Arduino IDE. You will have to install the AMY library to compile and run this. Wiring is in the sketch. 
+
+the next step is midi input. This is something I have done before with teensy and mozzi audio libraries, so I am assuming I can translate that over, but 
+we will see how it goes!
