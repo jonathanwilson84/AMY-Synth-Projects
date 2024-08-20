@@ -21,3 +21,14 @@ the folder marked with the title above. Made in Arduino IDE. You will have to in
 
 the next step is midi input. This is something I have done before with teensy and mozzi audio libraries, so I am assuming I can translate that over, but 
 we will see how it goes!
+
+
+1.0 AMY POLYPHONIC SYNTH
+
+So I've been working through getting midi going with AMY, and it ended up being pretty straightforward. I finally got a 6 voice polyphonic synth example, you can find it under 
+amyPolyphony3.ino. It has a couple of controls, one for filter cutoff, one for waveform type, super simple. Adding more soon. 
+
+My main perogotive now is to figure out what the end result of this will look like. Im thinking a unit with a two octave keyboard, small screen, and 4-6 rotary encoders. Maybe have
+several different modes that have different control schemes based on different waveforms. We will see! I still have a lot of experimenting to do. Specifically, transitioning
+to vscode and the esp-idf to access both cores of the esp32. Im thinking I can run most of the synth stuff on one core, and all of the periferals on the other core, so that
+there is no interference, but Ive never worked with multiple cores before so I need to do some serious experimentation. 
